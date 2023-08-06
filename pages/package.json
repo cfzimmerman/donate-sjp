@@ -2,5 +2,12 @@
   "name": "pages",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "tw": "npx tailwindcss -i input.css -o ./build/output.css",
+    "tww": "npx tailwindcss -i input.css -o ./build/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
 }
