@@ -20,3 +20,4 @@ func (r Routes) Index(w http.ResponseWriter, req *http.Request) {
   }
   page.Execute(w, nil)
 }
+
