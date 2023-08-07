@@ -3,4 +3,4 @@
 _In progress_
 
 
-Building a basic donation page for a local nonprofit. Planning to use Stripe for payments, Go for the server, and a Rust WASM frontend. Because good deeds should be fun too (even if a bit overengineered) 😄
+Building a simple donation page for a local nonprofit.
